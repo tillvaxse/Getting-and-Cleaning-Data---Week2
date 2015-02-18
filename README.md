@@ -1,5 +1,6 @@
 # Course Project
 
+##Att! My file "run_analysis.R" for Windows only! If you have Mac system please use file "run_analysis_mac.R".  
 ##i.Read initial data
 ###i.1 Create subfolder "data"
 ###i.2 Download and unzip file
