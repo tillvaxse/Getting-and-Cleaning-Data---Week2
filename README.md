@@ -1,6 +1,7 @@
-# Course Project
+﻿# Course Project
 
-##Att! My file "run_analysis.R" for Windows only! If you have Mac system please use file "run_analysis_mac.R".  
+Att! My file "run_analysis.R" for Windows only! If you have Mac system please use file "run_analysis_mac.R".  
+
 ##i.Read initial data
 ###i.1 Create subfolder "data"
 ###i.2 Download and unzip file
@@ -22,8 +23,8 @@
 ###1.3 Merge columns to get the data frame Data for all data
 
 ##2. Extracts only the measurements on the mean and standard deviation for each measurement
-###2.1 Subset Name of Features by measurements on the mean and standard deviation
-###i.e taken Names of Features with "mean()" or "std()"
+###2.1 Subset Name of Features by measurements on the mean and standard deviation, i.e taken Names of Features 
+with "mean()" or "std()"
 ###2.2 Subset the data frame Data by seleted names of Features
 
 ##3. Uses descriptive activity names to name the activities in the data set
@@ -31,9 +32,8 @@
 ###3.2 factorize variale activity in the data frame Data using descriptive activity names
 
 ##4. Appropriately labels the data set with descriptive variable names
-###In the former part, variables activity and subject and names of the activities have been 
-###labelled using descriptive names. In this part, Names of Feteatures will labelled using 
-###descriptive variable names.
+In the former part, variables activity and subject and names of the activities have been labelled using descriptive names. 
+In this part, Names of Feteatures will labelled using descriptive variable names:
 #### -prefix t is replaced by time
 #### -Acc is replaced by Accelerometer
 #### -Gyro is replaced by Gyroscope
@@ -42,8 +42,8 @@
 #### -BodyBody is replaced by Body
 
 ##5. Ccreates a second, independent tidy data set with the average of each variable for each 
-##activity and each subject
+activity and each subject
 
 ##Results:
-###The tidy data is ready as "dataTidy.txt" in Work Directory.
-###Initial data in path "./data/UCI HAR Dataset/".
+- The tidy data is ready as "dataTidy.txt" in Work Directory.
+- Initial data in path "./data/UCI HAR Dataset/".
