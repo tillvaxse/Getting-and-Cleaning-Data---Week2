@@ -54,11 +54,7 @@ There are 5 parts:
 4. Appropriately labels the data set with descriptive activity names.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## How ```run_analysis.R``` implements the above steps:
+## Outlet data:
 
-* Require ```reshapre2``` and ```data.table``` librareis.
-* Load both test and train data
-* Load the features and activity labels.
-* Extract the mean and standard deviation column names and data.
-* Process the data. There are two parts processing test and train data respectively.
-* Merge data set.
+* file 'dataTidy' is stored in working directory.
+* initials files are stored in directory "./data/UCI HAR Dataset"
